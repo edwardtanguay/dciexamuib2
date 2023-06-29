@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	font-family: verdana;
+}
+
+.header {
+	background-image: url('../images/scubadive.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 20rem;
+	position: fixed;
+	top: 0;
+}
+
+h1 {
+	top: 4rem;
+	right: 4rem;
+	position: absolute;
+	font-size: 6rem;
+	opacity: .3;
+}
+
+main {
+	margin: 22rem 2rem 2rem 2rem;
+}
+
+.card {
+	border: 1px solid #ccc;
+	width: 15rem;
+	padding: 1rem;
+	border-radius: .5rem;
+	background-color:rgb(205, 234, 243); 
+}
+
+.card img {
+	width: 100%;
+}
+
+.card .description {
+	font-size: .9rem;
+}
+
+.card h2 {
+	margin-bottom: .5rem;
+}
+
+/* smartphone view */
+@media (max-width: 767px) {
+	h1 {
+		top: 2rem;
+		left: 2rem;
+		font-size: 3rem;
+	}	
+}
+
+/* computer/table view */
+@media (min-width: 768px) {
+	
+}
